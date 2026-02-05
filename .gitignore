@@ -1,0 +1,30 @@
+# Node
+node_modules/
+
+# Env
+.env
+.env.*
+
+# Logs
+logs
+*.log
+
+# Zip / Rar
+*.zip
+*.rar
+*.7z
+
+# Build folders
+dist/
+build/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency locks (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
