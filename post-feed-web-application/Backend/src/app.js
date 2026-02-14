@@ -1,13 +1,12 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const multer = require("multer");
 const { uploadFile } = require("./services/storage.service");
 const cors = require("cors");
 // models import
 const postModel = require("./models/post.model");
 const app = express();
-// middleware - Read JSON formate data
 app.use(cors());
+// middleware - Read JSON formate data
 app.use(express.json());
 
 const upload = multer({ storage: multer.memoryStorage() });

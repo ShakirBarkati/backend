@@ -1,0 +1,26 @@
+Fatwa app
+
+Backend
+packages
+1) Express
+2) Mongoose
+3) Dotenv
+
+Server:
+Server Created on port 3000  - Directory name: Backend - file name: server.js
+
+main file / api file:
+file name: app.js, Directory name: Backend - file name: src/app.js
+
+Api's:
+
+Post method Api:
+{
+    image_url:String,
+    title:String,
+    description:String,
+    category:String    
+    date_time:Date
+}
+
+FrontEnd
